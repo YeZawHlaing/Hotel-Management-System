@@ -1,0 +1,75 @@
+header{
+    top:0;
+    position:sticky;
+    z-index: 10000;
+
+}
+.navbar{
+    display: flex;
+    background-color: #031b17;
+  
+}
+
+.carousel-item {
+    height: auto; /* Ensure the carousel item height adjusts automatically */
+}
+
+.c-img{
+   background-position: center;
+    /* height: 450px !important; */
+     object-fit:cover;
+     filter: brightness(0.8);
+ }
+ h2{
+    text-align: center;
+    
+    font-family:  'Lora', serif;
+ }
+
+ p{
+    font-family:  'Lora', serif;
+   
+ }
+ .first{
+   color: black;
+  
+ }
+ .second{
+    background-color: #031b17;
+    border-bottom-right-radius: 220px;
+    padding-left: 20px;
+    
+ }
+
+ h3 {
+    text-align: center;
+    position: relative;
+    font-family: 'Lora', serif;
+}
+
+.tt::before, .tt::after {
+    content: "";
+    height: 1px;
+    width: 50vw;
+    background-color: #031b17;
+    position: absolute;
+    top: 50%;
+    z-index: -3;
+}
+
+.tt::before {
+    right: 0;
+}
+
+.tt::after {
+    left: 0;
+}
+
+#s {
+    background-color: white;
+}
+
+.bi {
+    font-size: 1.5rem; /* Adjust the size of the icon */
+    color: #031b17; /* Color of the icon */
+}

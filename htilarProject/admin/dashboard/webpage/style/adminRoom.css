@@ -1,0 +1,114 @@
+
+
+ /* form css */
+ @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+ a {
+   text-decoration: none;
+ }
+ .showBtn {
+   font-size: 17px;
+   background: none;
+   color: white;
+   padding: 10px 50px;
+ }
+ .logo {
+   font-family: "Lobster", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 40px;
+ }
+ /* .btn-pink-moon {
+background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+
+text-align: center;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;       
+outline: none;     
+border: none;
+
+font-weight: bolder;
+} */
+
+/* .btn-pink-moon:hover {
+background-position: right center; /* change the direction of the change here 
+text-decoration: none;
+} */
+
+ .btn.active,
+ .btn:hover {
+   background: rgba(207, 207, 209, 0.116);
+   outline: none;
+
+   transition: all;
+   transition-duration: 300ms;
+ }
+ .showBtn.active,
+ .showBtn:hover {
+   background: rgba(207, 207, 209, 0.116);
+   outline: none;
+   transition: all;
+   transition-duration: 300ms;
+ }
+
+ .btn:focus {
+   outline: none;
+ }
+ .btn {
+   color: black;
+ }
+ .btn:hover {
+   background: rgba(207, 207, 209, 0.116);
+
+   outline: none;
+   transition: all;
+   transition-duration: 300ms;
+ }
+ .alreadyBtn {
+   background: none;
+   border: 0;
+   outline: none;
+
+   padding: 10px 20px;
+   border-radius: 20px;
+   font-size: 18px;
+ }
+ .alreadyBtn:hover {
+   background: rgba(207, 207, 209, 0.116);
+   transition: all;
+   transition-duration: 300ms;
+ }
+ .pic {
+   border: 2px dashed black;
+   width: 300px;
+   height: 200px;
+   position: relative;
+ }
+ .plusIcon {
+   position: absolute;
+   top: 60px;
+
+   right: 140px;
+
+   font-size: 45px;
+   
+   border: 0;
+   background: none;
+   color: black;
+ }
+ .atleast{
+   font-size: 20px;
+   padding: 15px;
+   padding: 20px;
+ }
+ #photoUpload {
+opacity: 0;
+position: absolute;
+z-index: -1;
+}
+
+
+label {
+cursor: pointer;
+/* Style as you please, it will become the visible UI component. */
+}
